@@ -12,7 +12,7 @@ from django.http import Http404
 # Create your views here.
 
 # This endpoint is protected. You can access it by passing in the token with the GET request.
-class DummyResponse(APIView):
+class RestrictedListUserEndpoint(APIView):
   permission_classes = [permissions.IsAuthenticated]
   def get(self, request, *args, **kwargs):
     usernames = [user.username for user in User.objects.all()]

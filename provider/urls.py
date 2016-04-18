@@ -19,7 +19,7 @@ from authorize import views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^dummy/$', views.DummyResponse.as_view()),
+    url(r'^list_user/$', views.RestrictedListUserEndpoint.as_view()),
     url(r'^sign_up/$', views.SignUp.as_view()),
 
     # For the oauth2 supplied URLS eg: o/applications

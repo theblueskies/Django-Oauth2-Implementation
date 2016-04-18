@@ -22,7 +22,7 @@ def get_page():
     token = json.loads(get_token())
     print ('Bearer ' + token['access_token'])
     r = requests.get(
-      'http://127.0.0.1:8000/dummy',
+      'http://127.0.0.1:8000/list_user',
       headers={
       'Authorization': ('Bearer ' + token['access_token'])
       }
