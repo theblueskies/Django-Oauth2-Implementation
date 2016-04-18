@@ -1,0 +1,9 @@
+Django==1.8.4
+django-braces==1.8.1
+django-oauth-toolkit==0.10.0
+django-sslserver==0.19
+djangorestframework==3.3.3
+oauthlib==1.0.3
+requests==2.9.1
+six==1.10.0
+wsgiref==0.1.2
