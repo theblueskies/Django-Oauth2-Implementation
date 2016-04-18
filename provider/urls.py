@@ -21,7 +21,6 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^dummy/$', views.DummyResponse.as_view()),
     url(r'^sign_up/$', views.SignUp.as_view()),
-    url(r'^login/$', views.Login.as_view()),
 
     # For the oauth2 supplied URLS eg: o/applications
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
