@@ -9,8 +9,8 @@ def get_token():
     'http://127.0.0.1:8000/o/token/',
     data={
         'grant_type': 'password',
-        'username': 'bachuta',
-        'password': 'bachuta',
+        'username': 'test_user1',
+        'password': 'test_user1',
         'client_id': CLIENT_ID,
         'client_secret': CLIENT_SECRET
       }
