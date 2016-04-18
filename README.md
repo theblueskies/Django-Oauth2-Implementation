@@ -1,7 +1,7 @@
 # Django-Oauth2-Implementation
 
 
-This is an implementation of Django with django-oauth-toolkit to provide an Oauth2 token service. The main objective is to have a working example of a protecting an endpoint and how to access it with a generated token.
+This is an implementation of Django with django-oauth-toolkit to provide an Oauth2 token service. The main objective is to have a working example of a protected endpoint and how to access it with a generated token.
 
 
 
