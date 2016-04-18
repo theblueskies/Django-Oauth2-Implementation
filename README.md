@@ -22,3 +22,10 @@ test_user1 and test_user2. the passwords are the same as the usernames.)
 
 5. Now go and write your own protected endpoints. The **RestrictedListUserEndpoint** endpoint in views.py should be what you need to be on your way!!
 
+
+## For an https connection:
+
+python manage.py runsslserver
+
+This is facilitated by the package 'django-sslserver'. It is installed in settings.py as 'sslserver'.
+
