@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'sslserver',
     'oauth2_provider',
+    'authorize'
 )
 
 AUTHENTICATION_BACKENDS = (

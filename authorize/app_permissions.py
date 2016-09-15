@@ -18,4 +18,8 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
         return True
 
     # Write permissions are only allowed to the owner of the snippet.
+
+    # IMPORTANT: In your object model, remember to have the field of 'owner'. If not, this is going to fail
+    # Example of what you should have in your model: owner = models.ForeignKey('auth.User', related_name='something')
+    # Check out the model Item
     return obj.owner == request.user
